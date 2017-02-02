@@ -29,6 +29,6 @@ app.get('/:ds', function(req,res){
 });
 
 
-app.listen(8080, function(){
+app.listen(process.env.PORT, function(){
     console.log('port is 8080!');
 });
